@@ -7,7 +7,7 @@ about:
   head: 1899870
   archived: false
   latestVersion: v0.23.1
-  collectedAt: 2026-09-04T19:58:25Z
+  collectedAt: 2026-09-04T20:42:30Z
 timeline:
   created: 2019-09-06
   lastCommit: 2026-05-14
@@ -80,6 +80,34 @@ total:
   openIssue: 33
   commit: 663
 ---
+path: /home/runner/.x-repo/github.com/imsnif/bandwhich
+collectedAt: 2026-09-04T20:42:31Z
+loc:
+  Rust:
+    code: 4498
+    comments: 106
+    blanks: 513
+    files: 35
+  Svg:
+    code: 480
+    comments: 1
+    blanks: 1
+    files: 2
+  Toml:
+    code: 77
+    comments: 1
+    blanks: 10
+    files: 3
+  Markdown:
+    code: 0
+    comments: 478
+    blanks: 181
+    files: 6
+total:
+  code: 5055
+  comments: 649
+  blanks: 716
+  files: 46
 ---
 date: "2026-08-24"
 repo:
