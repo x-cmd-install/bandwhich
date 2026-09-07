@@ -5,13 +5,13 @@ about:
   head: 1899870
   archived: false
   latestVersion: "v0.23.1"
-  collectedAt: 2026-09-07T06:02:34Z
+  collectedAt: 2026-09-07T18:25:03Z
 timeline:
   created: 2019-09-06
   lastCommit: 2026-05-14
   lastRelease: 2024-10-08
 popularity:
-  star: 11953
+  star: 11954
   watcher: 79
   fork: 345
   release: 29
@@ -79,7 +79,7 @@ total:
   commit: 663
 ---
 path: /home/runner/.x-repo/github.com/imsnif/bandwhich
-collectedAt: 2026-09-07T06:02:35Z
+collectedAt: 2026-09-07T18:25:04Z
 loc:
   Rust:
     code: 4498
@@ -218,7 +218,7 @@ checks:
       - 'Warn: 0 commits out of 22 are checked with a SAST tool'
 ---
 eget:
-  collectedAt: 2026-09-07T06:02:36+00:00
+  collectedAt: 2026-09-07T18:25:05+00:00
   platform:
     darwin/arm64:
       name:  bandwhich-v0.23.1-aarch64-apple-darwin.tar.gz
