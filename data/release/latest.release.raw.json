@@ -67,7 +67,7 @@
       "state": "uploaded",
       "size": 1894447,
       "digest": null,
-      "download_count": 2516,
+      "download_count": 2520,
       "created_at": "2024-10-08T07:22:22Z",
       "updated_at": "2024-10-08T07:22:22Z",
       "browser_download_url": "https://github.com/imsnif/bandwhich/releases/download/v0.23.1/bandwhich-v0.23.1-aarch64-apple-darwin.tar.gz"
@@ -103,7 +103,7 @@
       "state": "uploaded",
       "size": 1390847,
       "digest": null,
-      "download_count": 812,
+      "download_count": 814,
       "created_at": "2024-10-08T07:21:25Z",
       "updated_at": "2024-10-08T07:21:25Z",
       "browser_download_url": "https://github.com/imsnif/bandwhich/releases/download/v0.23.1/bandwhich-v0.23.1-aarch64-linux-android.tar.gz"
@@ -139,7 +139,7 @@
       "state": "uploaded",
       "size": 1467711,
       "digest": null,
-      "download_count": 5214,
+      "download_count": 5218,
       "created_at": "2024-10-08T07:21:34Z",
       "updated_at": "2024-10-08T07:21:34Z",
       "browser_download_url": "https://github.com/imsnif/bandwhich/releases/download/v0.23.1/bandwhich-v0.23.1-aarch64-unknown-linux-gnu.tar.gz"
@@ -175,7 +175,7 @@
       "state": "uploaded",
       "size": 1495429,
       "digest": null,
-      "download_count": 4535,
+      "download_count": 4541,
       "created_at": "2024-10-08T07:22:36Z",
       "updated_at": "2024-10-08T07:22:36Z",
       "browser_download_url": "https://github.com/imsnif/bandwhich/releases/download/v0.23.1/bandwhich-v0.23.1-aarch64-unknown-linux-musl.tar.gz"
@@ -211,7 +211,7 @@
       "state": "uploaded",
       "size": 1463141,
       "digest": null,
-      "download_count": 508,
+      "download_count": 509,
       "created_at": "2024-10-08T07:22:27Z",
       "updated_at": "2024-10-08T07:22:27Z",
       "browser_download_url": "https://github.com/imsnif/bandwhich/releases/download/v0.23.1/bandwhich-v0.23.1-armv7-unknown-linux-gnueabihf.tar.gz"
@@ -247,7 +247,7 @@
       "state": "uploaded",
       "size": 1494794,
       "digest": null,
-      "download_count": 485,
+      "download_count": 486,
       "created_at": "2024-10-08T07:21:57Z",
       "updated_at": "2024-10-08T07:21:57Z",
       "browser_download_url": "https://github.com/imsnif/bandwhich/releases/download/v0.23.1/bandwhich-v0.23.1-armv7-unknown-linux-musleabihf.tar.gz"
@@ -283,7 +283,7 @@
       "state": "uploaded",
       "size": 1980809,
       "digest": null,
-      "download_count": 940,
+      "download_count": 941,
       "created_at": "2024-10-08T07:22:27Z",
       "updated_at": "2024-10-08T07:22:28Z",
       "browser_download_url": "https://github.com/imsnif/bandwhich/releases/download/v0.23.1/bandwhich-v0.23.1-x86_64-apple-darwin.tar.gz"
@@ -319,7 +319,7 @@
       "state": "uploaded",
       "size": 1416546,
       "digest": null,
-      "download_count": 3167,
+      "download_count": 3170,
       "created_at": "2024-10-08T07:24:20Z",
       "updated_at": "2024-10-08T07:24:20Z",
       "browser_download_url": "https://github.com/imsnif/bandwhich/releases/download/v0.23.1/bandwhich-v0.23.1-x86_64-pc-windows-msvc.zip"
@@ -355,7 +355,7 @@
       "state": "uploaded",
       "size": 1541850,
       "digest": null,
-      "download_count": 16482,
+      "download_count": 16486,
       "created_at": "2024-10-08T07:21:33Z",
       "updated_at": "2024-10-08T07:21:33Z",
       "browser_download_url": "https://github.com/imsnif/bandwhich/releases/download/v0.23.1/bandwhich-v0.23.1-x86_64-unknown-linux-gnu.tar.gz"
@@ -391,7 +391,7 @@
       "state": "uploaded",
       "size": 1601364,
       "digest": null,
-      "download_count": 13907,
+      "download_count": 13918,
       "created_at": "2024-10-08T07:21:50Z",
       "updated_at": "2024-10-08T07:21:50Z",
       "browser_download_url": "https://github.com/imsnif/bandwhich/releases/download/v0.23.1/bandwhich-v0.23.1-x86_64-unknown-linux-musl.tar.gz"
