@@ -1,0 +1,945 @@
+- repo: debian_unstable
+  subrepo: sid/main
+  srcname: rust-bandwhich
+  binnames:
+    - bandwhich
+  visiblename: rust-bandwhich
+  version: 0.23.1
+  origversion: 0.23.1-3
+  status: newest
+  maintainers:
+    - pkg-rust-maintainers@alioth-lists.debian.net
+    - heqing@rool.me
+  categories:
+    - net
+- repo: kali_rolling
+  subrepo: main
+  srcname: rust-bandwhich
+  binnames:
+    - bandwhich
+  visiblename: rust-bandwhich
+  version: 0.23.1
+  origversion: 0.23.1-3
+  status: newest
+  maintainers:
+    - pkg-rust-maintainers@alioth-lists.debian.net
+    - heqing@rool.me
+  categories:
+    - net
+- repo: alpine_3_17
+  subrepo: community
+  srcname: bandwhich
+  binname: bandwhich
+  visiblename: bandwhich
+  version: 0.20.0
+  origversion: 0.20.0-r1
+  status: outdated
+  summary: Terminal bandwidth utilization tool
+  maintainers:
+    - anjan@momi.ca
+  licenses:
+    - MIT
+- repo: alpine_3_18
+  subrepo: community
+  srcname: bandwhich
+  binname: bandwhich
+  visiblename: bandwhich
+  version: 0.20.0
+  origversion: 0.20.0-r2
+  status: outdated
+  summary: Terminal bandwidth utilization tool
+  maintainers:
+    - anjan@momi.ca
+  licenses:
+    - MIT
+- repo: alpine_3_19
+  subrepo: community
+  srcname: bandwhich
+  binname: bandwhich
+  visiblename: bandwhich
+  version: 0.21.1
+  origversion: 0.21.1-r0
+  status: outdated
+  summary: Terminal bandwidth utilization tool
+  maintainers:
+    - anjan@momi.ca
+  licenses:
+    - MIT
+- repo: alpine_3_20
+  subrepo: community
+  srcname: bandwhich
+  binname: bandwhich
+  visiblename: bandwhich
+  version: 0.22.2
+  origversion: 0.22.2-r0
+  status: outdated
+  summary: Terminal bandwidth utilization tool
+  maintainers:
+    - anjan@momi.ca
+  licenses:
+    - MIT
+- repo: alpine_3_21
+  subrepo: community
+  srcname: bandwhich
+  binname: bandwhich
+  visiblename: bandwhich
+  version: 0.23.0
+  origversion: 0.23.0-r0
+  status: outdated
+  summary: Terminal bandwidth utilization tool
+  maintainers:
+    - anjan@momi.ca
+  licenses:
+    - MIT
+- repo: alpine_3_22
+  subrepo: community
+  srcname: bandwhich
+  binname: bandwhich
+  visiblename: bandwhich
+  version: 0.23.0
+  origversion: 0.23.0-r0
+  status: outdated
+  summary: Terminal bandwidth utilization tool
+  maintainers:
+    - anjan@momi.ca
+  licenses:
+    - MIT
+- repo: alpine_3_23
+  subrepo: community
+  srcname: bandwhich
+  binname: bandwhich
+  visiblename: bandwhich
+  version: 0.23.0
+  origversion: 0.23.0-r0
+  status: outdated
+  summary: Terminal bandwidth utilization tool
+  maintainers:
+    - anjan@momi.ca
+  licenses:
+    - MIT
+- repo: alpine_3_24
+  subrepo: community
+  srcname: bandwhich
+  binname: bandwhich
+  visiblename: bandwhich
+  version: 0.23.1
+  origversion: 0.23.1-r0
+  status: newest
+  summary: Terminal bandwidth utilization tool
+  maintainers:
+    - anjan@momi.ca
+  licenses:
+    - MIT
+- repo: alpine_edge
+  subrepo: community
+  srcname: bandwhich
+  binname: bandwhich
+  visiblename: bandwhich
+  version: 0.23.1
+  origversion: 0.23.1-r0
+  status: newest
+  summary: Terminal bandwidth utilization tool
+  maintainers:
+    - anjan@momi.ca
+  licenses:
+    - MIT
+- repo: altsisyphus
+  srcname: bandwhich
+  binnames:
+    - bandwhich
+    - bandwhich-debuginfo
+  visiblename: bandwhich
+  version: 0.23.1
+  origversion: 0.23.1-alt1
+  status: newest
+  summary: Terminal bandwidth utilization tool
+  maintainers:
+    - gerben@altlinux.org
+  licenses:
+    - MIT
+  categories:
+    - File tools
+- repo: aosc
+  srcname: app-network/bandwhich
+  binname: bandwhich
+  visiblename: bandwhich
+  version: 0.23.0
+  origversion: null
+  status: outdated
+  summary: An utility for displaying current network utilization
+  maintainers:
+    - fallback-mnt-aosc@repology
+  categories:
+    - net
+- repo: arch
+  subrepo: extra
+  srcname: bandwhich
+  binname: bandwhich
+  visiblename: bandwhich
+  version: 0.23.1
+  origversion: 0.23.1-3
+  status: newest
+  summary: Terminal bandwidth utilization tool
+  licenses:
+    - MIT
+- repo: aur
+  srcname: bandwhich-git
+  binname: bandwhich-git
+  visiblename: bandwhich-git
+  version: 0.21.1.r23.g2382706
+  origversion: 0.21.1.r23.g2382706-1
+  status: rolling
+  summary: Terminal bandwidth utilization tool
+  maintainers:
+    - kleintux@aur
+  licenses:
+    - MIT
+- repo: chimera
+  subrepo: user
+  srcname: bandwhich
+  binname: bandwhich
+  visiblename: bandwhich
+  version: 0.23.1
+  origversion: 0.23.1-r1
+  status: newest
+  summary: Terminal bandwidth utilization tool
+  licenses:
+    - MIT
+- repo: chimera
+  subrepo: user
+  srcname: bandwhich
+  binname: bandwhich-doc
+  visiblename: bandwhich-doc
+  version: 0.23.1
+  origversion: 0.23.1-r1
+  status: newest
+  summary: Terminal bandwidth utilization tool (documentation)
+  licenses:
+    - MIT
+- repo: crates_io
+  srcname: bandwhich
+  visiblename: bandwhich
+  version: 0.23.1
+  origversion: null
+  status: newest
+  summary: Display current network utilization by process, connection and remote IP/hostname
+- repo: crux_37
+  subrepo: contrib
+  srcname: bandwhich
+  visiblename: bandwhich
+  version: 0.23.1
+  origversion: null
+  status: newest
+  summary: Terminal bandwidth utilization tool
+  maintainers:
+    - tbier@posteo.de
+- repo: crux_38
+  subrepo: contrib
+  srcname: bandwhich
+  visiblename: bandwhich
+  version: 0.23.1
+  origversion: null
+  status: newest
+  summary: Terminal bandwidth utilization tool
+  maintainers:
+    - tbier@posteo.de
+- repo: debian_14
+  subrepo: forky/main
+  srcname: rust-bandwhich
+  binnames:
+    - bandwhich
+  visiblename: rust-bandwhich
+  version: 0.23.1
+  origversion: 0.23.1-3
+  status: newest
+  maintainers:
+    - pkg-rust-maintainers@alioth-lists.debian.net
+    - heqing@rool.me
+  categories:
+    - net
+- repo: devuan_unstable
+  subrepo: unstable/main
+  srcname: rust-bandwhich
+  binnames:
+    - bandwhich
+  visiblename: rust-bandwhich
+  version: 0.23.1
+  origversion: 0.23.1-3
+  status: newest
+  maintainers:
+    - pkg-rust-maintainers@alioth-lists.debian.net
+    - heqing@rool.me
+  categories:
+    - net
+- repo: exherbo
+  subrepo: rust
+  srcname: sys-apps/bandwhich
+  visiblename: sys-apps/bandwhich
+  version: 0.23.1
+  origversion: null
+  status: newest
+  summary: 'bandwhich: display current network utilization by process, connection and remote IP/hostname'
+  maintainers:
+    - fallback-mnt-exherbo@repology
+  categories:
+    - sys-apps
+- repo: freebsd
+  srcname: net-mgmt/bandwhich
+  binname: bandwhich
+  visiblename: net-mgmt/bandwhich
+  version: 0.23.1
+  origversion: 0.23.1_17
+  status: newest
+  summary: Terminal bandwidth utilization tool
+  maintainers:
+    - petteri.valkonen@iki.fi
+  categories:
+    - net-mgmt
+- repo: gentoo
+  srcname: net-analyzer/bandwhich
+  visiblename: net-analyzer/bandwhich
+  version: 0.23.1
+  origversion: null
+  status: newest
+  summary: Terminal bandwidth utilization tool
+  maintainers:
+    - freijon@pm.me
+    - proxy-maint@gentoo.org
+  licenses:
+    - MIT
+    - Apache-2.0
+    - BSD
+    - CC0-1.0
+    - Unicode-DFS-2016
+  categories:
+    - net-analyzer
+- repo: homebrew
+  srcname: bandwhich
+  visiblename: bandwhich
+  version: 0.23.1
+  origversion: null
+  status: newest
+  summary: Terminal bandwidth utilization tool
+- repo: kiss_community
+  subrepo: community
+  srcname: bandwhich
+  visiblename: bandwhich
+  version: 0.23.1
+  origversion: null
+  status: newest
+  maintainers:
+    - prathamin@proton.me
+- repo: liguros_stable
+  srcname: net-analyzer/bandwhich
+  visiblename: net-analyzer/bandwhich
+  version: 0.23.1
+  origversion: null
+  status: newest
+  summary: Terminal bandwidth utilization tool
+  maintainers:
+    - freijon@pm.me
+    - proxy-maint@gentoo.org
+  licenses:
+    - MIT
+    - Apache-2.0
+    - BSD
+    - CC0-1.0
+    - Unicode-DFS-2016
+  categories:
+    - net-analyzer
+- repo: liguros_develop
+  srcname: net-analyzer/bandwhich
+  visiblename: net-analyzer/bandwhich
+  version: 0.23.1
+  origversion: null
+  status: newest
+  summary: Terminal bandwidth utilization tool
+  maintainers:
+    - freijon@pm.me
+    - proxy-maint@gentoo.org
+  licenses:
+    - MIT
+    - Apache-2.0
+    - BSD
+    - CC0-1.0
+    - Unicode-DFS-2016
+  categories:
+    - net-analyzer
+- repo: macports
+  srcname: net/bandwhich
+  binname: bandwhich
+  visiblename: bandwhich
+  version: 0.23.1
+  origversion: null
+  status: newest
+  summary: Terminal bandwidth utilization tool (formerly known as "what")
+  maintainers:
+    - herbygillot@github
+  licenses:
+    - MIT
+  categories:
+    - net
+- repo: manjaro_stable
+  subrepo: extra
+  srcname: bandwhich
+  binname: bandwhich
+  visiblename: bandwhich
+  version: 0.23.1
+  origversion: 0.23.1-3
+  status: newest
+  summary: Terminal bandwidth utilization tool
+  licenses:
+    - MIT
+- repo: manjaro_testing
+  subrepo: extra
+  srcname: bandwhich
+  binname: bandwhich
+  visiblename: bandwhich
+  version: 0.23.1
+  origversion: 0.23.1-3
+  status: newest
+  summary: Terminal bandwidth utilization tool
+  licenses:
+    - MIT
+- repo: manjaro_unstable
+  subrepo: extra
+  srcname: bandwhich
+  binname: bandwhich
+  visiblename: bandwhich
+  version: 0.23.1
+  origversion: 0.23.1-3
+  status: newest
+  summary: Terminal bandwidth utilization tool
+  licenses:
+    - MIT
+- repo: nix_stable_24_05
+  srcname: bandwhich
+  visiblename: bandwhich
+  version: 0.22.2
+  origversion: null
+  status: outdated
+  summary: A CLI utility for displaying current network utilization
+  maintainers:
+    - brightone@protonmail.com
+    - figsoda@pm.me
+  licenses:
+    - MIT
+- repo: nix_stable_24_11
+  srcname: bandwhich
+  visiblename: bandwhich
+  version: 0.23.0
+  origversion: null
+  status: outdated
+  summary: CLI utility for displaying current network utilization
+  maintainers:
+    - brightone@protonmail.com
+    - figsoda@pm.me
+  licenses:
+    - MIT
+- repo: nix_stable_25_05
+  srcname: bandwhich
+  visiblename: bandwhich
+  version: 0.23.1
+  origversion: null
+  status: newest
+  summary: CLI utility for displaying current network utilization
+  maintainers:
+    - brightone@protonmail.com
+    - figsoda@pm.me
+  licenses:
+    - MIT
+- repo: nix_stable_25_11
+  srcname: bandwhich
+  visiblename: bandwhich
+  version: 0.23.1
+  origversion: null
+  status: newest
+  summary: CLI utility for displaying current network utilization
+  maintainers:
+    - brightone@protonmail.com
+  licenses:
+    - MIT
+- repo: nix_stable_26_05
+  srcname: bandwhich
+  visiblename: bandwhich
+  version: 0.23.1
+  origversion: null
+  status: newest
+  summary: CLI utility for displaying current network utilization
+  maintainers:
+    - fallback-mnt-nix@repology
+  licenses:
+    - MIT
+- repo: nix_unstable
+  srcname: bandwhich
+  visiblename: bandwhich
+  version: 0.23.1
+  origversion: null
+  status: newest
+  summary: CLI utility for displaying current network utilization
+  maintainers:
+    - fallback-mnt-nix@repology
+  licenses:
+    - MIT
+- repo: openmamba
+  subrepo: base
+  srcname: bandwhich
+  binnames:
+    - bandwhich
+  visiblename: bandwhich
+  version: 0.23.1
+  origversion: 0.23.1-1mamba
+  status: newest
+  summary: Terminal bandwidth utilization tool
+  maintainers:
+    - silvan.calarco@mambasoft.it
+  licenses:
+    - MIT
+  categories:
+    - Applications/Networking
+- repo: openmandriva_6_0
+  subrepo: main/release
+  srcname: bandwhich
+  binnames:
+    - bandwhich
+    - bandwhich-debuginfo
+    - bandwhich-debugsource
+  visiblename: bandwhich
+  version: 0.20.0
+  origversion: 0.20.0-2
+  status: outdated
+  summary: Terminal bandwidth utilization tool
+  maintainers:
+    - bero+massbuild@lindev.ch
+  licenses:
+    - BSD
+  categories:
+    - Text tools
+- repo: terra_39
+  srcname: rust-bandwhich
+  binname: bandwhich
+  visiblename: bandwhich
+  version: 0.23.1
+  origversion: 0.23.1-1.fc39
+  status: newest
+  summary: Display current network utilization by process, connection and remote IP/hostname
+  licenses:
+    - MIT
+  categories:
+    - Unspecified
+- repo: openmandriva_rolling
+  subrepo: main/release
+  srcname: bandwhich
+  binnames:
+    - bandwhich
+    - bandwhich-debuginfo
+    - bandwhich-debugsource
+  visiblename: bandwhich
+  version: 0.20.0
+  origversion: 0.20.0-2
+  status: outdated
+  summary: Terminal bandwidth utilization tool
+  maintainers:
+    - bero+massbuild@lindev.ch
+  licenses:
+    - BSD
+  categories:
+    - Text tools
+- repo: openmandriva_cooker
+  subrepo: main/release
+  srcname: bandwhich
+  binnames:
+    - bandwhich
+    - bandwhich-debuginfo
+    - bandwhich-debugsource
+  visiblename: bandwhich
+  version: 0.20.0
+  origversion: 0.20.0-2
+  status: outdated
+  summary: Terminal bandwidth utilization tool
+  maintainers:
+    - bero+massbuild@lindev.ch
+  licenses:
+    - BSD
+  categories:
+    - Text tools
+- repo: parabola
+  subrepo: extra
+  srcname: bandwhich
+  binname: bandwhich
+  visiblename: bandwhich
+  version: 0.23.1
+  origversion: 0.23.1-3
+  status: newest
+  summary: Terminal bandwidth utilization tool
+  licenses:
+    - MIT
+- repo: raspbian_testing
+  subrepo: main
+  srcname: rust-bandwhich
+  binnames:
+    - bandwhich
+  visiblename: rust-bandwhich
+  version: 0.23.1
+  origversion: 0.23.1-3
+  status: newest
+  maintainers:
+    - pkg-rust-maintainers@alioth-lists.debian.net
+    - heqing@rool.me
+  categories:
+    - net
+- repo: rosa_13
+  subrepo: contrib/release
+  srcname: bandwhich
+  binnames:
+    - bandwhich
+  visiblename: bandwhich
+  version: 0.23.1
+  origversion: 0.23.1-2
+  status: newest
+  summary: Terminal bandwidth utilization tool
+  maintainers:
+    - alexander@mezon.ru
+  licenses:
+    - BSD
+  categories:
+    - Text tools
+- repo: scoop
+  subrepo: main
+  binname: bandwhich
+  visiblename: bandwhich
+  version: 0.23.1
+  origversion: null
+  status: newest
+  licenses:
+    - MIT
+- repo: solus
+  srcname: bandwhich
+  binname: bandwhich
+  visiblename: bandwhich
+  version: 0.23.1
+  origversion: null
+  status: newest
+  summary: Terminal bandwidth utilization tool
+  maintainers:
+    - nazar@autistici.org
+  licenses:
+    - MIT
+  categories:
+    - system.utils
+- repo: solus
+  srcname: bandwhich
+  binname: bandwhich-dbginfo
+  visiblename: bandwhich-dbginfo
+  version: 0.23.1
+  origversion: null
+  status: newest
+  summary: Debug symbols for bandwhich
+  maintainers:
+    - nazar@autistici.org
+  licenses:
+    - MIT
+  categories:
+    - debug
+- repo: stalix
+  srcname: bin/band/which
+  binname: bin/band/which
+  visiblename: bin/band/which
+  version: 0.23.1
+  origversion: null
+  status: newest
+  maintainers:
+    - anton@samokhvalov.xyz
+  categories:
+    - bin
+- repo: stalix_dev
+  srcname: bin/band/which
+  binname: bin/band/which
+  visiblename: bin/band/which
+  version: 0.23.1
+  origversion: null
+  status: newest
+  maintainers:
+    - anton@samokhvalov.xyz
+  categories:
+    - bin
+- repo: t2
+  srcname: bandwhich
+  visiblename: bandwhich
+  version: 0.23.1
+  origversion: null
+  status: newest
+  summary: Terminal bandwidth utilization tool
+  maintainers:
+    - rene@exactco.de
+  licenses:
+    - MIT
+  categories:
+    - extra/network
+- repo: terra_39
+  srcname: rust-bandwhich
+  binname: bandwhich
+  visiblename: bandwhich
+  version: 0.22.2
+  origversion: 0.22.2-1.fc39
+  status: legacy
+  summary: Display current network utilization by process, connection and remote IP/hostname
+  licenses:
+    - MIT
+  categories:
+    - Unspecified
+- repo: terra_39
+  srcname: rust-bandwhich
+  binname: bandwhich-debuginfo
+  visiblename: bandwhich-debuginfo
+  version: 0.22.2
+  origversion: 0.22.2-1.fc39
+  status: legacy
+  summary: Debug information for package bandwhich
+  licenses:
+    - MIT
+  categories:
+    - Development/Debug
+- repo: terra_39
+  srcname: rust-bandwhich
+  binname: rust-bandwhich-debugsource
+  visiblename: rust-bandwhich-debugsource
+  version: 0.22.2
+  origversion: 0.22.2-1.fc39
+  status: legacy
+  summary: Debug sources for package rust-bandwhich
+  licenses:
+    - MIT
+  categories:
+    - Development/Debug
+- repo: terra_39
+  srcname: rust-bandwhich
+  binname: bandwhich-debuginfo
+  visiblename: bandwhich-debuginfo
+  version: 0.23.1
+  origversion: 0.23.1-1.fc39
+  status: newest
+  summary: Debug information for package bandwhich
+  licenses:
+    - MIT
+  categories:
+    - Development/Debug
+- repo: terra_39
+  srcname: rust-bandwhich
+  binname: rust-bandwhich-debugsource
+  visiblename: rust-bandwhich-debugsource
+  version: 0.23.1
+  origversion: 0.23.1-1.fc39
+  status: newest
+  summary: Debug sources for package rust-bandwhich
+  licenses:
+    - MIT
+  categories:
+    - Development/Debug
+- repo: terra_40
+  srcname: rust-bandwhich
+  binname: bandwhich
+  visiblename: bandwhich
+  version: 0.22.2
+  origversion: 0.22.2-1.fc40
+  status: legacy
+  summary: Display current network utilization by process, connection and remote IP/hostname
+  licenses:
+    - MIT
+  categories:
+    - Unspecified
+- repo: terra_40
+  srcname: rust-bandwhich
+  binname: bandwhich-debuginfo
+  visiblename: bandwhich-debuginfo
+  version: 0.22.2
+  origversion: 0.22.2-1.fc40
+  status: legacy
+  summary: Debug information for package bandwhich
+  licenses:
+    - MIT
+  categories:
+    - Development/Debug
+- repo: terra_40
+  srcname: rust-bandwhich
+  binname: rust-bandwhich-debugsource
+  visiblename: rust-bandwhich-debugsource
+  version: 0.22.2
+  origversion: 0.22.2-1.fc40
+  status: legacy
+  summary: Debug sources for package rust-bandwhich
+  licenses:
+    - MIT
+  categories:
+    - Development/Debug
+- repo: terra_40
+  srcname: rust-bandwhich
+  binname: bandwhich
+  visiblename: bandwhich
+  version: 0.23.1
+  origversion: 0.23.1-1.fc40
+  status: newest
+  summary: Display current network utilization by process, connection and remote IP/hostname
+  licenses:
+    - MIT
+  categories:
+    - Unspecified
+- repo: terra_40
+  srcname: rust-bandwhich
+  binname: bandwhich-debuginfo
+  visiblename: bandwhich-debuginfo
+  version: 0.23.1
+  origversion: 0.23.1-1.fc40
+  status: newest
+  summary: Debug information for package bandwhich
+  licenses:
+    - MIT
+  categories:
+    - Development/Debug
+- repo: terra_40
+  srcname: rust-bandwhich
+  binname: rust-bandwhich-debugsource
+  visiblename: rust-bandwhich-debugsource
+  version: 0.23.1
+  origversion: 0.23.1-1.fc40
+  status: newest
+  summary: Debug sources for package rust-bandwhich
+  licenses:
+    - MIT
+  categories:
+    - Development/Debug
+- repo: terra_41
+  srcname: rust-bandwhich
+  binname: bandwhich
+  visiblename: bandwhich
+  version: 0.23.1
+  origversion: 0.23.1-1.fc41
+  status: newest
+  summary: Display current network utilization by process, connection and remote IP/hostname
+  licenses:
+    - MIT
+  categories:
+    - Unspecified
+- repo: terra_41
+  srcname: rust-bandwhich
+  binname: bandwhich-debuginfo
+  visiblename: bandwhich-debuginfo
+  version: 0.23.1
+  origversion: 0.23.1-1.fc41
+  status: newest
+  summary: Debug information for package bandwhich
+  licenses:
+    - MIT
+  categories:
+    - Development/Debug
+- repo: terra_41
+  srcname: rust-bandwhich
+  binname: rust-bandwhich-debugsource
+  visiblename: rust-bandwhich-debugsource
+  version: 0.23.1
+  origversion: 0.23.1-1.fc41
+  status: newest
+  summary: Debug sources for package rust-bandwhich
+  licenses:
+    - MIT
+  categories:
+    - Development/Debug
+- repo: terra_rawhide
+  srcname: rust-bandwhich
+  binname: bandwhich
+  visiblename: bandwhich
+  version: 0.23.1
+  origversion: 0.23.1-1.fcrawhide
+  status: newest
+  summary: Display current network utilization by process, connection and remote IP/hostname
+  licenses:
+    - MIT
+  categories:
+    - Unspecified
+- repo: terra_rawhide
+  srcname: rust-bandwhich
+  binname: bandwhich
+  visiblename: bandwhich
+  version: 0.23.1
+  origversion: 0.23.1-1.fcrawhide
+  status: newest
+  summary: Display current network utilization by process, connection and remote IP/hostname
+  licenses:
+    - MIT
+  categories:
+    - Unspecified
+- repo: terra_rawhide
+  srcname: rust-bandwhich
+  binname: bandwhich-debuginfo
+  visiblename: bandwhich-debuginfo
+  version: 0.23.1
+  origversion: 0.23.1-1.fcrawhide
+  status: newest
+  summary: Debug information for package bandwhich
+  licenses:
+    - MIT
+  categories:
+    - Development/Debug
+- repo: terra_rawhide
+  srcname: rust-bandwhich
+  binname: bandwhich-debuginfo
+  visiblename: bandwhich-debuginfo
+  version: 0.23.1
+  origversion: 0.23.1-1.fcrawhide
+  status: newest
+  summary: Debug information for package bandwhich
+  licenses:
+    - MIT
+  categories:
+    - Development/Debug
+- repo: terra_rawhide
+  srcname: rust-bandwhich
+  binname: rust-bandwhich-debugsource
+  visiblename: rust-bandwhich-debugsource
+  version: 0.23.1
+  origversion: 0.23.1-1.fcrawhide
+  status: newest
+  summary: Debug sources for package rust-bandwhich
+  licenses:
+    - MIT
+  categories:
+    - Development/Debug
+- repo: terra_rawhide
+  srcname: rust-bandwhich
+  binname: rust-bandwhich-debugsource
+  visiblename: rust-bandwhich-debugsource
+  version: 0.23.1
+  origversion: 0.23.1-1.fcrawhide
+  status: newest
+  summary: Debug sources for package rust-bandwhich
+  licenses:
+    - MIT
+  categories:
+    - Development/Debug
+- repo: ubuntu_26_10
+  subrepo: stonking/universe
+  srcname: rust-bandwhich
+  binnames:
+    - bandwhich
+  visiblename: rust-bandwhich
+  version: 0.23.1
+  origversion: 0.23.1-3
+  status: newest
+  maintainers:
+    - pkg-rust-maintainers@alioth-lists.debian.net
+    - heqing@rool.me
+  categories:
+    - universe/net
+- repo: void_x86_64
+  subrepo: x86_64
+  srcname: bandwhich
+  binname: bandwhich
+  visiblename: bandwhich
+  version: 0.23.1
+  origversion: 0.23.1_1
+  status: newest
+  summary: Terminal bandwidth utilization tool
+  maintainers:
+    - tranzystorek.io@protonmail.com
+  licenses:
+    - MIT
