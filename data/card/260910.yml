@@ -7,7 +7,7 @@ about:
   latestVersion: "v0.23.1"
   latestRelease: "v0.23.1"
   latestPrerelease: ""
-  collectedAt: 2026-09-10T21:01:53Z
+  collectedAt: 2026-09-10T22:46:55Z
 timeline:
   created: 2019-09-06
   lastCommit: 2026-05-14
@@ -83,7 +83,7 @@ total:
   commit: 663
 ---
 path: /home/runner/.x-repo/github.com/imsnif/bandwhich
-collectedAt: 2026-09-10T21:01:54Z
+collectedAt: 2026-09-10T22:46:56Z
 loc:
   Rust:
     code: 4498

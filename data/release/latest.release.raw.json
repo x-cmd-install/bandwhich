@@ -355,7 +355,7 @@
       "state": "uploaded",
       "size": 1541850,
       "digest": null,
-      "download_count": 16581,
+      "download_count": 16582,
       "created_at": "2024-10-08T07:21:33Z",
       "updated_at": "2024-10-08T07:21:33Z",
       "browser_download_url": "https://github.com/imsnif/bandwhich/releases/download/v0.23.1/bandwhich-v0.23.1-x86_64-unknown-linux-gnu.tar.gz"
@@ -391,7 +391,7 @@
       "state": "uploaded",
       "size": 1601364,
       "digest": null,
-      "download_count": 14098,
+      "download_count": 14102,
       "created_at": "2024-10-08T07:21:50Z",
       "updated_at": "2024-10-08T07:21:50Z",
       "browser_download_url": "https://github.com/imsnif/bandwhich/releases/download/v0.23.1/bandwhich-v0.23.1-x86_64-unknown-linux-musl.tar.gz"
