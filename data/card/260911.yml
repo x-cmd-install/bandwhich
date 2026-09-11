@@ -7,7 +7,7 @@ about:
   latestVersion: "v0.23.1"
   latestRelease: "v0.23.1"
   latestPrerelease: ""
-  collectedAt: 2026-09-11T06:18:59Z
+  collectedAt: 2026-09-11T18:32:42Z
 timeline:
   created: 2019-09-06
   lastCommit: 2026-05-14
@@ -17,7 +17,7 @@ timeline:
 popularity:
   star: 11958
   watcher: 79
-  fork: 345
+  fork: 347
   release: 29
   contributor: 51
   pullRequest: 334
@@ -83,7 +83,7 @@ total:
   commit: 663
 ---
 path: /home/runner/.x-repo/github.com/imsnif/bandwhich
-collectedAt: 2026-09-11T06:19:01Z
+collectedAt: 2026-09-11T18:32:44Z
 loc:
   Rust:
     code: 4498
