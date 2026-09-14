@@ -46,7 +46,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 11,964 · **Forks**: 347 · **Open issues**: 184 · **Contributors**: 51
+- **Stars**: 11,965 · **Forks**: 347 · **Open issues**: 184 · **Contributors**: 51
 
 ## Totals (cumulative)
 
@@ -56,12 +56,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-14 | 0 | 0 | 1 | 0 | 0 | 0 |
-| last60d | 2026-07-15 | 0 | 0 | 4 | 0 | 0 | 0 |
-| 90d | 2026-06-15 | 0 | 0 | 5 | 0 | 0 | 0 |
-| last180d | 2026-03-17 | 0 | 5 | 14 | 0 | 1 | 12 |
-| 360d | 2025-09-18 | 0 | 8 | 18 | 1 | 5 | 16 |
-| last720d | 2024-09-23 | 1 | 29 | 21 | 4 | 10 | 88 |
+| 30d | 2026-08-15 | 0 | 0 | 1 | 0 | 0 | 0 |
+| last60d | 2026-07-16 | 0 | 0 | 4 | 0 | 0 | 0 |
+| 90d | 2026-06-16 | 0 | 0 | 5 | 0 | 0 | 0 |
+| last180d | 2026-03-18 | 0 | 5 | 14 | 0 | 1 | 12 |
+| 360d | 2025-09-19 | 0 | 8 | 18 | 1 | 5 | 16 |
+| last720d | 2024-09-24 | 1 | 29 | 21 | 4 | 10 | 88 |
 
 ## Release assets
 
@@ -78,20 +78,6 @@ Lowest-scoring checks:
 | [bandwhich-v0.23.1-x86_64-unknown-linux-gnu.tar.gz](https://github.com/imsnif/bandwhich/releases/download/v0.23.1/bandwhich-v0.23.1-x86_64-unknown-linux-gnu.tar.gz) | 1.5 MiB | `native/linux/x64/glibc` |
 | [bandwhich-v0.23.1-x86_64-unknown-linux-musl.tar.gz](https://github.com/imsnif/bandwhich/releases/download/v0.23.1/bandwhich-v0.23.1-x86_64-unknown-linux-musl.tar.gz) | 1.5 MiB | `native/linux/x64/musl` |
 
-## Distribution status
-
-Reported by **75** distros on [repology.org](https://repology.org/project/bandwhich). **55** are ✅ on the latest upstream release, **13** are ⚠️ on an older version.
-
-| Distro | Version | Status |
-|--------|---------|--------|
-| Debian unstable | `0.23.1` | ✅ latest |
-| Debian 14 | `0.23.1` | ✅ latest |
-| Arch | `0.23.1` | ✅ latest |
-| Homebrew | `0.23.1` | ✅ latest |
-| Nix unstable | `0.23.1` | ✅ latest |
-| Void | `0.23.1` | ✅ latest |
-| Alpine edge | `0.23.1` | ✅ latest |
-
 ## Improve this data
 
 Install metadata for bandwhich lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `bandwhich` is missing, out of date, or installs incorrectly, please open an issue or PR there:
@@ -101,4 +87,4 @@ Install metadata for bandwhich lives in the [x-cmd/install](https://github.com/x
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260913.yml` · 2026-09-13T06:15:10Z._
+_Snapshot: `data/card/260914.yml` · 2026-09-14T06:34:33Z._
