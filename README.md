@@ -46,22 +46,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 11,998 · **Forks**: 353 · **Open issues**: 184 · **Contributors**: 51
+- **Stars**: 11,998 · **Forks**: 353 · **Open issues**: 185 · **Contributors**: 51
 
 ## Totals (cumulative)
 
-- **Releases**: 29 · **Merged PRs**: 226 · **Open PRs**: 24 · **Closed issues**: 152 · **Open issues**: 32 · **Commits**: 663
+- **Releases**: 29 · **Merged PRs**: 226 · **Open PRs**: 24 · **Closed issues**: 152 · **Open issues**: 33 · **Commits**: 663
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-08 | 0 | 0 | 2 | 0 | 0 | 0 |
-| last60d | 2026-08-09 | 0 | 0 | 3 | 0 | 0 | 0 |
-| 90d | 2026-07-10 | 0 | 0 | 6 | 0 | 0 | 0 |
-| last180d | 2026-04-11 | 0 | 5 | 14 | 0 | 1 | 12 |
-| 360d | 2025-10-13 | 0 | 8 | 20 | 2 | 4 | 16 |
-| last720d | 2024-10-18 | 0 | 19 | 22 | 5 | 9 | 56 |
+| 30d | 2026-09-09 | 0 | 0 | 2 | 0 | 1 | 0 |
+| last60d | 2026-08-10 | 0 | 0 | 3 | 0 | 1 | 0 |
+| 90d | 2026-07-11 | 0 | 0 | 6 | 0 | 1 | 0 |
+| last180d | 2026-04-12 | 0 | 5 | 14 | 0 | 2 | 12 |
+| 360d | 2025-10-14 | 0 | 8 | 20 | 2 | 5 | 16 |
+| last720d | 2024-10-19 | 0 | 19 | 22 | 5 | 10 | 56 |
 
 ## Release assets
 
@@ -87,4 +87,4 @@ Install metadata for bandwhich lives in the [x-cmd/install](https://github.com/x
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261008.yml` · 2026-10-08T07:23:47Z._
+_Snapshot: `data/card/261009.yml` · 2026-10-09T07:16:13Z._
