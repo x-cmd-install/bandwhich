@@ -1,3 +1,14 @@
+- repo: stalix_dev
+  srcname: bin/band/which
+  binname: bin/band/which
+  visiblename: bin/band/which
+  version: 0.23.1
+  origversion: null
+  status: newest
+  maintainers:
+    - anton@samokhvalov.xyz
+  categories:
+    - bin
 - repo: alpine_3_17
   subrepo: community
   srcname: bandwhich
@@ -188,6 +199,13 @@
   summary: Terminal bandwidth utilization tool (documentation)
   licenses:
     - MIT
+- repo: chocolatey
+  binname: bandwhich
+  visiblename: bandwhich
+  version: 0.23.1
+  origversion: null
+  status: newest
+  summary: A CLI utility for displaying current network utilization by process, connection and remote IP/hostname.
 - repo: crates_io
   srcname: bandwhich
   visiblename: bandwhich
@@ -281,6 +299,56 @@
     - petteri.valkonen@iki.fi
   categories:
     - net-mgmt
+- repo: nix_stable_26_05
+  srcname: bandwhich
+  visiblename: bandwhich
+  version: 0.23.1
+  origversion: null
+  status: newest
+  summary: CLI utility for displaying current network utilization
+  maintainers:
+    - fallback-mnt-nix@repology
+  licenses:
+    - MIT
+- repo: nix_unstable
+  srcname: bandwhich
+  visiblename: bandwhich
+  version: 0.23.1
+  origversion: null
+  status: newest
+  summary: CLI utility for displaying current network utilization
+  maintainers:
+    - fallback-mnt-nix@repology
+  licenses:
+    - MIT
+- repo: openmamba
+  subrepo: base
+  srcname: bandwhich
+  binnames:
+    - bandwhich
+  visiblename: bandwhich
+  version: 0.23.1
+  origversion: 0.23.1-1mamba
+  status: newest
+  summary: Terminal bandwidth utilization tool
+  maintainers:
+    - silvan.calarco@mambasoft.it
+  licenses:
+    - MIT
+  categories:
+    - Applications/Networking
+- repo: terra_40
+  srcname: rust-bandwhich
+  binname: rust-bandwhich-debugsource
+  visiblename: rust-bandwhich-debugsource
+  version: 0.23.1
+  origversion: 0.23.1-1.fc40
+  status: newest
+  summary: Debug sources for package rust-bandwhich
+  licenses:
+    - MIT
+  categories:
+    - Development/Debug
 - repo: gentoo
   srcname: net-analyzer/bandwhich
   visiblename: net-analyzer/bandwhich
@@ -459,44 +527,6 @@
     - brightone@protonmail.com
   licenses:
     - MIT
-- repo: nix_stable_26_05
-  srcname: bandwhich
-  visiblename: bandwhich
-  version: 0.23.1
-  origversion: null
-  status: newest
-  summary: CLI utility for displaying current network utilization
-  maintainers:
-    - fallback-mnt-nix@repology
-  licenses:
-    - MIT
-- repo: nix_unstable
-  srcname: bandwhich
-  visiblename: bandwhich
-  version: 0.23.1
-  origversion: null
-  status: newest
-  summary: CLI utility for displaying current network utilization
-  maintainers:
-    - fallback-mnt-nix@repology
-  licenses:
-    - MIT
-- repo: openmamba
-  subrepo: base
-  srcname: bandwhich
-  binnames:
-    - bandwhich
-  visiblename: bandwhich
-  version: 0.23.1
-  origversion: 0.23.1-1mamba
-  status: newest
-  summary: Terminal bandwidth utilization tool
-  maintainers:
-    - silvan.calarco@mambasoft.it
-  licenses:
-    - MIT
-  categories:
-    - Applications/Networking
 - repo: openmandriva_6_0
   subrepo: main/release
   srcname: bandwhich
@@ -630,17 +660,6 @@
   categories:
     - debug
 - repo: stalix
-  srcname: bin/band/which
-  binname: bin/band/which
-  visiblename: bin/band/which
-  version: 0.23.1
-  origversion: null
-  status: newest
-  maintainers:
-    - anton@samokhvalov.xyz
-  categories:
-    - bin
-- repo: stalix_dev
   srcname: bin/band/which
   binname: bin/band/which
   visiblename: bin/band/which
@@ -792,18 +811,6 @@
   origversion: 0.23.1-1.fc40
   status: newest
   summary: Debug information for package bandwhich
-  licenses:
-    - MIT
-  categories:
-    - Development/Debug
-- repo: terra_40
-  srcname: rust-bandwhich
-  binname: rust-bandwhich-debugsource
-  visiblename: rust-bandwhich-debugsource
-  version: 0.23.1
-  origversion: 0.23.1-1.fc40
-  status: newest
-  summary: Debug sources for package rust-bandwhich
   licenses:
     - MIT
   categories:
