@@ -1,3 +1,29 @@
+- repo: crates_io
+  srcname: bandwhich
+  visiblename: bandwhich
+  version: 0.23.1
+  origversion: null
+  status: newest
+  summary: Display current network utilization by process, connection and remote IP/hostname
+- repo: crux_37
+  subrepo: contrib
+  srcname: bandwhich
+  visiblename: bandwhich
+  version: 0.23.1
+  origversion: null
+  status: newest
+  summary: Terminal bandwidth utilization tool
+  maintainers:
+    - tbier@posteo.de
+- repo: aerynos
+  srcname: bandwhich
+  visiblename: bandwhich
+  version: 0.23.1
+  origversion: null
+  status: newest
+  summary: Terminal bandwidth utilization tool
+  licenses:
+    - MIT
 - repo: alpine_3_17
   subrepo: community
   srcname: bandwhich
@@ -50,6 +76,16 @@
     - anjan@momi.ca
   licenses:
     - MIT
+- repo: crux_38
+  subrepo: contrib
+  srcname: bandwhich
+  visiblename: bandwhich
+  version: 0.23.1
+  origversion: null
+  status: newest
+  summary: Terminal bandwidth utilization tool
+  maintainers:
+    - tbier@posteo.de
 - repo: alpine_3_21
   subrepo: community
   srcname: bandwhich
@@ -76,18 +112,6 @@
     - anjan@momi.ca
   licenses:
     - MIT
-- repo: nix_stable_24_11
-  srcname: bandwhich
-  visiblename: bandwhich
-  version: 0.23.0
-  origversion: null
-  status: outdated
-  summary: CLI utility for displaying current network utilization
-  maintainers:
-    - brightone@protonmail.com
-    - figsoda@pm.me
-  licenses:
-    - MIT
 - repo: alpine_3_23
   subrepo: community
   srcname: bandwhich
@@ -112,6 +136,15 @@
   summary: Terminal bandwidth utilization tool
   maintainers:
     - anjan@momi.ca
+  licenses:
+    - MIT
+- repo: scoop
+  subrepo: main
+  binname: bandwhich
+  visiblename: bandwhich
+  version: 0.23.1
+  origversion: null
+  status: newest
   licenses:
     - MIT
 - repo: alpine_edge
@@ -207,33 +240,6 @@
   origversion: null
   status: newest
   summary: A CLI utility for displaying current network utilization by process, connection and remote IP/hostname.
-- repo: crates_io
-  srcname: bandwhich
-  visiblename: bandwhich
-  version: 0.23.1
-  origversion: null
-  status: newest
-  summary: Display current network utilization by process, connection and remote IP/hostname
-- repo: crux_37
-  subrepo: contrib
-  srcname: bandwhich
-  visiblename: bandwhich
-  version: 0.23.1
-  origversion: null
-  status: newest
-  summary: Terminal bandwidth utilization tool
-  maintainers:
-    - tbier@posteo.de
-- repo: crux_38
-  subrepo: contrib
-  srcname: bandwhich
-  visiblename: bandwhich
-  version: 0.23.1
-  origversion: null
-  status: newest
-  summary: Terminal bandwidth utilization tool
-  maintainers:
-    - tbier@posteo.de
 - repo: debian_14
   subrepo: forky/main
   srcname: rust-bandwhich
@@ -366,42 +372,6 @@
     - Unicode-DFS-2016
   categories:
     - net-analyzer
-- repo: solus
-  srcname: bandwhich
-  binname: bandwhich-dbginfo
-  visiblename: bandwhich-dbginfo
-  version: 0.23.1
-  origversion: null
-  status: newest
-  summary: Debug symbols for bandwhich
-  maintainers:
-    - nazar@autistici.org
-  licenses:
-    - MIT
-  categories:
-    - debug
-- repo: stalix
-  srcname: bin/band/which
-  binname: bin/band/which
-  visiblename: bin/band/which
-  version: 0.23.1
-  origversion: null
-  status: newest
-  maintainers:
-    - anton@samokhvalov.xyz
-  categories:
-    - bin
-- repo: stalix_dev
-  srcname: bin/band/which
-  binname: bin/band/which
-  visiblename: bin/band/which
-  version: 0.23.1
-  origversion: null
-  status: newest
-  maintainers:
-    - anton@samokhvalov.xyz
-  categories:
-    - bin
 - repo: liguros_develop
   srcname: net-analyzer/bandwhich
   visiblename: net-analyzer/bandwhich
@@ -474,6 +444,18 @@
   origversion: null
   status: outdated
   summary: A CLI utility for displaying current network utilization
+  maintainers:
+    - brightone@protonmail.com
+    - figsoda@pm.me
+  licenses:
+    - MIT
+- repo: nix_stable_24_11
+  srcname: bandwhich
+  visiblename: bandwhich
+  version: 0.23.0
+  origversion: null
+  status: outdated
+  summary: CLI utility for displaying current network utilization
   maintainers:
     - brightone@protonmail.com
     - figsoda@pm.me
@@ -635,15 +617,6 @@
     - BSD
   categories:
     - Text tools
-- repo: scoop
-  subrepo: main
-  binname: bandwhich
-  visiblename: bandwhich
-  version: 0.23.1
-  origversion: null
-  status: newest
-  licenses:
-    - MIT
 - repo: solus
   srcname: bandwhich
   binname: bandwhich
@@ -658,6 +631,42 @@
     - MIT
   categories:
     - system.utils
+- repo: solus
+  srcname: bandwhich
+  binname: bandwhich-dbginfo
+  visiblename: bandwhich-dbginfo
+  version: 0.23.1
+  origversion: null
+  status: newest
+  summary: Debug symbols for bandwhich
+  maintainers:
+    - nazar@autistici.org
+  licenses:
+    - MIT
+  categories:
+    - debug
+- repo: stalix
+  srcname: bin/band/which
+  binname: bin/band/which
+  visiblename: bin/band/which
+  version: 0.23.1
+  origversion: null
+  status: newest
+  maintainers:
+    - anton@samokhvalov.xyz
+  categories:
+    - bin
+- repo: stalix_dev
+  srcname: bin/band/which
+  binname: bin/band/which
+  visiblename: bin/band/which
+  version: 0.23.1
+  origversion: null
+  status: newest
+  maintainers:
+    - anton@samokhvalov.xyz
+  categories:
+    - bin
 - repo: t2
   srcname: bandwhich
   visiblename: bandwhich
